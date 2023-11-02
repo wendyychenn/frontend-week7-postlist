@@ -17,8 +17,8 @@ const Post = ({ post }) => {
     return (
             <div className="post-body">
             <h3 className="post-title">{post.title}</h3>
-                {author && <p>By: {author.name}</p>}
-                <p>{post.body}</p>
+                {author && <p className="post-author">By: {author.name}</p>}
+                <p className="post-content">{post.body}</p>
             </div>
     );
 };
