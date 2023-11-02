@@ -1,0 +1,21 @@
+.post-body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-top: 1rem;
+    padding: 1rem;
+    box-shadow: 0 1px 2px #151515;
+}
+
+.post-body h3 {
+    margin-bottom: -0.1px;
+    text-transform: capitalize;
+}
+
+.post-author {
+    font-weight: 500;
+}
+
+.post-content {
+    font-weight: 300;
+}
